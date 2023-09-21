@@ -1,0 +1,203 @@
+SECTION-1
+
+
+1. List all the files and sub directories of the directory /bin.
+dac@dac-Veriton-M200-H310:/bin$ ls ../../bin
+'['                                   fold                           journalctl                         pipewire-media-session           systemd-umount
+ aa-enabled                           fonttosfnt                     jpgicc                             pkaction                         tabs
+ aa-exec                              foo2ddst                       jps                                pkcheck                          tac
+ aa-features-abi                      foo2ddst-wrapper               jrunscript                         pkcon                            tail
+ aconnect                             foo2hbpl2                      jsadebugd                          pkexec                           tar
+ acpi_listen                          foo2hbpl2-wrapper              json_pp                            pkill                            taskset
+ add-apt-repository                   foo2hiperc                     jstack                             pkmon                            tbl
+ addpart                              foo2hiperc-wrapper             jstat                              pkttyagent                       tclsh
+ addr2line                            foo2hp                         jstatd                             pl2pm                            tclsh8.6
+ airscan-discover                     foo2hp2600-wrapper             kbdinfo                            pldd                             tcpdump
+ alsabat                              foo2lava                       kbd_mode                           plog                             tee
+ alsaloop                             foo2lava-wrapper               kbxutil                            plymouth                         telnet
+ alsamixer                            foo2oak                        kernel-install                     pmap                             telnet.netkit
+ alsatplg                             foo2oak-wrapper                kerneloops-submit                  pnm2ppa                          tempfile
+ alsaucm                              foo2qpdl                       keyring                            pod2html                         test
+ amidi                         
+ 
+ 
+2. List all the files including hidden files in your current directory.
+dac@dac-Veriton-M200-H310:/bin$ ls -al
+total 219124
+drwxr-xr-x  2 root root         45056 Sep 14 20:12  .
+drwxr-xr-x 14 root root          4096 Feb 23  2023  ..
+-rwxr-xr-x  1 root root         51632 Feb  7  2022 '['
+-rwxr-xr-x  1 root root         35344 Jun 21  2022  aa-enabled
+-rwxr-xr-x  1 root root         35344 Jun 21  2022  aa-exec
+-rwxr-xr-x  1 root root         31248 Jun 21  2022  aa-features-abi
+-rwxr-xr-x  1 root root         22912 Jan 12  2022  aconnect
+-rwxr-xr-x  1 root root         19016 Jan 25  2022  acpi_listen
+-rwxr-xr-x  1 root root         14478 Jan 20  2023  add-apt-repository
+-rwxr-xr-x  1 root root         14712 Feb 21  2022  addpart
+lrwxrwxrwx  1 root root            26 Jun  4 12:19  addr2line -> x86_64-linux-gnu-addr2line
+-rwxr-xr-x  1 root root        150376 Mar 25  2022  airscan-discover
+-rwxr-xr-x  1 root root         43456 Jan 12  2022  alsabat
+-rwxr-xr-x  1 root root         85328 Jan 12  2022  alsaloop
+-rwxr-xr-x  1 root root         86312 Jan 12  2022  alsamixer
+-rwxr-xr-x  1 root root         76160 Jan 12  2022  alsatplg
+-rwxr-xr-x  1 root root         31576 Jan 12  2022  alsaucm
+
+
+3. List all the files starting with letter ‘r’ in your current directory.
+ac@dac-Veriton-M200-H310:/bin$ ls r*
+randpkt   rcp       readelf   remmina               renice      resizepart  rgrep             rm     rmiregistry  rpcgen  rstartd    runcon           rview
+ranlib    rctest    readlink  remmina-file-wrapper  reordercap  resolvectl  rhythmbox         rmdir  rnano        rrsync  rsync      run-mailcap      rvim
+rawshark  rdiffdir  realpath  remmina-gnome         reset       rev         rhythmbox-client  rmic   routef       rsh     rsync-ssl  run-parts        rygel
+rbash     rdma      red       rendercheck           resizecons  rfcomm      rlogin            rmid   routel       rstart  rtstat     run-with-aspell
+
+
+4. List all the files having three characters in their names, from your current directory .
+dac@dac-Veriton-M200-H310:/bin$ ls [a-z][a-z][a-z]
+apg  awk  cmp  cpp  cvt  dir  env  eqn  ftp  gdb  gjs  gtf  jar  jfr  jps  ldd  lpr  mtr  pon  ptx  rcp  rev  scp  see  ssh  tac  tbl  tic  top  ucf  who  xfd  xjc  xwd  yes
+apt  cat  col  cut  dig  dwp  eog  fmt  gcc  gio  gpg  ico  jdb  jjs  lcf  lpq  man  pic  pro  pwd  red  rsh  sed  seq  sum  tar  tee  toe  tty  vim  xev  xgc  xsm  xxd  zip
+
+
+5. List all the files with extension .doc in your current directory.
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ ls *.doc
+file1.doc  file2.doc
+
+dir1.doc:
+
+dir2.doc:
+
+
+6. List all the files having the first letter of their name within the range ‘l’ to‘s’, from
+your current directory.
+dac@dac-Veriton-M200-H310:/bin$ ls [l-s]*
+l2ping                       m2400w                            ntfssecaudit               plog                rctest                sha512sum
+l2test                       make                              ntfstruncate               plymouth            rdiffdir              sharkd
+laptop-detect                make-first-existing-target        ntfsusermap                pmap                rdma                  shasum
+last                         mako-render                       ntfswipe                   pnm2ppa             readelf               shotwell
+lastb                        man                               numfmt                     pod2html            readlink              showconsolefont
+lastlog                      mandb                             nvidia-detector            pod2man             realpath              showkey
+lavadecode                   manpath                           oakdecode                  pod2text            red                   showrgb
+lcf                          man-recode                        obexctl                    pod2usage           remmina               shred
+ld                           mapscrn                           objcopy                    podchecker          remmina-file-wrapper  shuf
+ld.bfd                       mawk                              objdump                    poff                remmina-gnome         simple-scan
+ldd                          mcookie                           oclock                     policytool          rendercheck           size
+ld.gold                      md5sum                            od                         pon                 renice                skill
+less                         md5sum.textutils                  oem-getlogs                powerprofilesctl    reordercap            slabtop
+lessecho                     mdig                              on_ac_power                ppdc                reset                 sleep
+
+
+7. Create a file text1 and read its input from keyboard.
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat> text1
+CDAC Acts ,Pune
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat text1
+CDAC Acts ,Pune
+
+
+8. Copy the contents of file text1 to another file text2.
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cp text1 text2
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat text1
+CDAC Acts ,Pune
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat text2
+CDAC Acts ,Pune
+
+
+9. Append the contents of file text2 to file text1.
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat text2>>text1
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat text1
+CDAC Acts ,Pune
+CDAC Acts ,Pune
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat text2
+CDAC Acts ,Pune
+
+
+10. Count the number of files in the current directory.
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ ls | wc -l
+8
+
+
+11. Display the output of command ls –l to a file and on the output screen.
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ ls -l > list1.txt
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat list1.txt
+total 20
+-rw-rw-r-- 1 dac dac    1 Sep 20 14:59 \
+-rw-rw-r-- 1 dac dac    0 Sep 20 14:28 Assignment1
+drwxrwxr-x 2 dac dac 4096 Sep 20 14:45 dir1.doc
+drwxrwxr-x 2 dac dac 4096 Sep 20 14:50 dir2.doc
+-rw-rw-r-- 1 dac dac    0 Sep 20 14:49 file1.doc
+-rw-rw-r-- 1 dac dac    0 Sep 20 14:50 file2.doc
+-rw-rw-r-- 1 dac dac    0 Sep 20 15:06 list1.txt
+-rw-rw-r-- 1 dac dac   32 Sep 20 15:01 text1
+-rw-rw-r-- 1 dac dac   16 Sep 20 14:59 text2
+
+
+12. From file text1 print all lines starting from 10th line
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat newfile.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ tail --line=+10 newfile.txt
+10
+11
+12
+
+
+13. Find the number of users currently logged on to the system
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ users|wc -w
+1
+
+14. Delete all the files with their names starting with “tmp”.
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ ls
+'\'   Assignment1   dir1.doc   dir2.doc   file1.doc   file2.doc   list1.txt   newfile.txt   text1   text2   tmp1.txt   tmp2.txt   tmp3.txt
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ rm tmp*
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ ls
+'\'   Assignment1   dir1.doc   dir2.doc   file1.doc   file2.doc   list1.txt   newfile.txt   text1   text2
+
+-
+==========================================================================================================================================================================================================
+
+
+                                                           SECTION.2
+1. Count the total number of words in file text1
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat text1
+CDAC Acts ,Pune
+CDAC Acts ,Pune
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ cat text1|wc -w
+6
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ 
+
+
+2. List the contents of ls command page wise.
+dac@dac-Veriton-M200-H310:~/Desktop/Batch1_AA/COS_AA/Assignments/Day1$ ls -la | more
+total 52
+drwxrwxr-x 4 dac dac  4096 Sep 20 15:30 .
+drwxrwxr-x 3 dac dac  4096 Sep 20 14:14 ..
+-rw-rw-r-- 1 dac dac     1 Sep 20 14:59 \
+-rw-rw-r-- 1 dac dac 10271 Sep 20 15:30 Assignment1
+drwxrwxr-x 2 dac dac  4096 Sep 20 14:45 dir1.doc
+drwxrwxr-x 2 dac dac  4096 Sep 20 14:50 dir2.doc
+-rw-rw-r-- 1 dac dac     0 Sep 20 14:49 file1.doc
+-rw-rw-r-- 1 dac dac     0 Sep 20 14:50 file2.doc
+-rw-rw-r-- 1 dac dac   434 Sep 20 15:06 list1.txt
+-rw-rw-r-- 1 dac dac    27 Sep 20 15:14 newfile.txt
+-rw-rw-r-- 1 dac dac    32 Sep 20 15:01 text1
+-rw-rw-r-- 1 dac dac    16 Sep 20 14:59 text2
+-rw-rw-r-- 1 dac dac  1024 Sep 20 14:16 .user.swp
+
+
+
+3. Create a file FILE2 with some text in it. Increase the no. of hard links to the file FILE2 to
+3 and check the inode number and link count for those names
+
+
+
+
+
+
