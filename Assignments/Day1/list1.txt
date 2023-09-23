@@ -1,0 +1,10 @@
+total 20
+-rw-rw-r-- 1 dac dac    1 Sep 20 14:59 \
+-rw-rw-r-- 1 dac dac    0 Sep 20 14:28 Assignment1
+drwxrwxr-x 2 dac dac 4096 Sep 20 14:45 dir1.doc
+drwxrwxr-x 2 dac dac 4096 Sep 20 14:50 dir2.doc
+-rw-rw-r-- 1 dac dac    0 Sep 20 14:49 file1.doc
+-rw-rw-r-- 1 dac dac    0 Sep 20 14:50 file2.doc
+-rw-rw-r-- 1 dac dac    0 Sep 20 15:06 list1.txt
+-rw-rw-r-- 1 dac dac   32 Sep 20 15:01 text1
+-rw-rw-r-- 1 dac dac   16 Sep 20 14:59 text2
